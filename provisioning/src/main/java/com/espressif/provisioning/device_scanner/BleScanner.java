@@ -41,7 +41,7 @@ public class BleScanner {
 
     private static final String TAG = "ESP:" + BleScanner.class.getSimpleName();
 
-    private static final long SCAN_TIME_OUT = 6000;
+    private static final long SCAN_TIME_OUT = 30000;
 
     private Handler handler;
     private BleScanListener bleScanListener;
